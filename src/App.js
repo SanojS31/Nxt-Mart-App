@@ -67,7 +67,8 @@ const App = () => {
         <Route exact path="/login" component={Login} />
         <ProtectedRoute exact path="/" component={Home} />
         <ProtectedRoute exact path="/cart" component={Cart} />
-        <Route component={NotFound} />
+        <Route exact path="/bad-path" component={NotFound} />
+        <Redirect to="bad-path" />
       </Switch>
     </ReactContext.Provider>
   )
