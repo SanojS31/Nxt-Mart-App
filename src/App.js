@@ -1,6 +1,6 @@
 import './App.css'
 import {useState, useEffect} from 'react'
-import {Switch, Route} from 'react-router-dom'
+import {Switch, Route, Redirect} from 'react-router-dom'
 import Login from './components/Login'
 import Cart from './components/Cart'
 import NotFound from './components/NotFound'
@@ -64,10 +64,11 @@ const App = () => {
       }}
     >
       <Switch>
-        <Route path="/login" component={Login} />
+        <Route exact path="/login" component={Login} />
         <ProtectedRoute exact path="/" component={Home} />
         <ProtectedRoute exact path="/cart" component={Cart} />
-        <Route component={NotFound} />
+        <Route exact path="bad-path" component={NotFound} />
+        <Redirect to="/bad-path" />
       </Switch>
     </ReactContext.Provider>
   )

@@ -1,4 +1,4 @@
-import './categorySmItem.css'
+import './index.css'
 import {CiShoppingCart} from 'react-icons/ci'
 
 const CategorySmItem = props => {

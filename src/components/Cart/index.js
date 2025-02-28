@@ -1,4 +1,4 @@
-import './cart.css'
+import './index.css'
 import {useContext, useState} from 'react'
 import {useHistory} from 'react-router-dom'
 // import {IoIosArrowRoundBack} from 'react-icons/io'

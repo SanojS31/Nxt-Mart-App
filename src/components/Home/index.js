@@ -1,4 +1,4 @@
-import './home.css'
+import './index.css'
 import {useState, useEffect} from 'react'
 import Cookies from 'js-cookie'
 import Loader from 'react-loader-spinner'

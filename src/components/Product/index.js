@@ -1,4 +1,4 @@
-import './product.css'
+import './index.css'
 import {useState, useContext} from 'react'
 import ReactContext from '../../context/ReactContext'
 

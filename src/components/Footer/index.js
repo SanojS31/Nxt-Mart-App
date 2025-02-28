@@ -1,4 +1,4 @@
-import './footer.css'
+import './index.css'
 import {FaFacebook, FaXTwitter, FaInstagram} from 'react-icons/fa6'
 import {TbBrandPicsart} from 'react-icons/tb'
 

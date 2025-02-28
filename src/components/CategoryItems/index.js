@@ -1,4 +1,4 @@
-import './categoryitems.css'
+import './index.css'
 
 const CategoryItems = props => {
   const {productitems, onChangeCategoryId, categoryId} = props

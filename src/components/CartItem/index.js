@@ -1,4 +1,4 @@
-import './cartitem.css'
+import './index.css'
 import {useContext} from 'react'
 import ReactContext from '../../context/ReactContext'
 

@@ -1,4 +1,4 @@
-import './login.css'
+import './index.css'
 import {Redirect} from 'react-router-dom'
 import {useState, useContext} from 'react'
 import Cookies from 'js-cookie'

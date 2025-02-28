@@ -1,4 +1,4 @@
-import './content.css'
+import './index.css'
 import Product from '../Product'
 
 const Content = props => {
