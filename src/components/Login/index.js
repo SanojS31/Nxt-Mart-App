@@ -7,8 +7,8 @@ import {RiRotateLockLine} from 'react-icons/ri'
 import ReactContext from '../../context/ReactContext'
 
 const Login = props => {
-  const [username, setUsername] = useState('rahul')
-  const [password, setPassword] = useState('rahul@2021')
+  const [username, setUsername] = useState('')
+  const [password, setPassword] = useState('')
   const [errMsg, setErrMsg] = useState('')
   const {setNewTab} = useContext(ReactContext)
 
